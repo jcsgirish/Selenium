@@ -30,7 +30,7 @@ import seleniumauto.pageobjects.orderspage;
 
 public class Ecommercepage extends BaseTest {
 	String productName = "ZARA COAT 3";
-		
+		//making changes
 		@Test (dataProvider = "getData" , groups = {"smoke"})
 		
 		public void submitorder(HashMap<String,String> input) throws IOException, InterruptedException {
